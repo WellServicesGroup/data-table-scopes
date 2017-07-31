@@ -1,0 +1,20 @@
+{
+    "name": "wellservicesgroup/datatable-scopes",
+    "type": "library",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Ramon de Jonge",
+            "email": "rdejonge@wellservices-group.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "yajra/laravel-datatables-buttons": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "WellServicesGroup\\DataTableScopes\\": "src"
+        }
+    }
+}
