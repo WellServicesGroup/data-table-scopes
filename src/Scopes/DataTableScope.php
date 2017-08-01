@@ -2,8 +2,6 @@
 
 namespace WellServicesGroup\DataTableScopes\Scopes;
 
-use Yajra\Datatables\Contracts\DataTableScopeContract;
-
 class DataTableScope implements DataTableScopeContract
 {
     protected $functionName;
